@@ -1,0 +1,25 @@
+D:\Documents and Settings\FMRI\My Documents\MATLAB\BoyntonFineMurray\UW_toolbox\stimulus\pRF_Mapping\data\tmp
+	Stimulus_2013_06_12_18_39_09_DriftingBar_scot0_seed8194_tmp
+
+
+
+Exam card is in the Final folder, pRFs (need to reset n. of runs and TRs) TRs = 240.
+Do 5 runs (identical)
+
+(EVERY TIME you restart matlab do the following)
+
+set path -> add with subfolders: MyDocuments/MATLAB/BoyntonFineMurray/UWToolbox/
+
+cd to MyDocuments/MATLAB/BoyntonFineMurray/UWToolbox/Stimulus/pRFMapping (critical!! this way the 'data' directory is created/saved correctly)
+
+open pRF_Mapping
+
+make sure the stimulusType is 'DriftingBar' (240TR)
+
+set subject name 
+
+run the script  -> set the 'seed' to 8194 (all the times!!)
+
+the stimulus will start with the trigger from the scanner
+
+copy mat files in the directory data/<subjname> (they save the time sequence of stimulus!)
